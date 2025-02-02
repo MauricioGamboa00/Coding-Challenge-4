@@ -66,3 +66,13 @@ let orders = [101, 102, 103]; // Created an array for orders Ids
 orders.forEach(order => {
     console.log(`Order ID: ${order}`)
 }); // Log Each Order ID in console
+
+// Task 8 Function Declaration 
+
+function calculateTax(amount,taxRate) {
+    return amount * taxRate; // Function created to calculate tax on amount and rate
+}
+
+let taxAmount = calculateTax(300, 0.05);
+console.log(`Tax Amount: $${taxAmount}`); // Log tax amount based on amount and rate in console
+
