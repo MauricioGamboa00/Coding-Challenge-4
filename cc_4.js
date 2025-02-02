@@ -76,3 +76,12 @@ function calculateTax(amount,taxRate) {
 let taxAmount = calculateTax(300, 0.05);
 console.log(`Tax Amount: $${taxAmount}`); // Log tax amount based on amount and rate in console
 
+// Task 9 Function Expressions 
+
+const applyDiscount = function(price, discountpercentage) {
+    return price - (price * discountpercentage / 100 );
+}; // Function made to apply a discount to a product based on price and discount percentage
+
+let discountedPrice = applyDiscount (400, 10)
+
+console.log(`Discounted Price: $${discountedPrice}`); // Log the discounted price in console
