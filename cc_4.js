@@ -38,3 +38,15 @@ do {
     console.log(`Response Amount: ${response}`); // Log response amount to console
     response++; // Add a response to the response amount
 } while(response <= 3); // Stop adding responses when 3 responses are reached
+
+// Task 5 For... In Loop
+
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+}; // Declared an employee object
+
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+}; // Made loop that goes through employee object properties
