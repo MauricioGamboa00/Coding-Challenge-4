@@ -19,3 +19,13 @@ for (let i = 0; i < sales.length; i++) {
 
 console.log(`Total Sales: $${totalSales}`); // Logging Total Sales amount to console
 
+// Task 3 While Loop
+
+let stock = 10; // Setting a value for initial stock amount
+
+while (stock > 0) {
+    console.log(`Stocks Remaining: ${stock}`); // Log the decrease of stock each time
+    stock--; // Reduce Stock by 1 
+}
+
+console.log("No Stocks Left.") // Display message when stocks are at 0
