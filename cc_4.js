@@ -29,3 +29,12 @@ while (stock > 0) {
 }
 
 console.log("No Stocks Left.") // Display message when stocks are at 0
+
+// Task 4 Do... While Loop
+
+let response = 0; // Start initial repsonse count at 0
+
+do {
+    console.log(`Response Amount: ${response}`); // Log response amount to console
+    response++; // Add a response to the response amount
+} while(response <= 3); // Stop adding responses when 3 responses are reached
